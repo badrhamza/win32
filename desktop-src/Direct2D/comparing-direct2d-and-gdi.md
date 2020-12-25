@@ -79,7 +79,7 @@ For this reason, [GDI](/windows/desktop/gdi/windows-gdi) was changed again in Wi
 
 ### Rendering method
 
-In order to maintain compatibility, [GDI](/windows/desktop/gdi/windows-gdi) performs a large part of its rendering to aperture memory using the CPU. In contrast, [Direct2D](./direct2d-portal.md) translates its APIs calls into Direct3D primitives and drawing operations. The result is then rendered on the GPU. Some of GDI?s rendering is performed on the GPU when the aperture memory is copied to the video memory surface representing the GDI window.
+In order to maintain compatibility, [GDI](/windows/desktop/gdi/windows-gdi) performs a large part of its rendering to aperture memory using the CPU. In contrast, [Direct2D](./direct2d-portal.md) translates its APIs calls into Direct3D primitives and drawing operations. The result is then rendered on the GPU. Some of GDI's rendering is performed on the GPU when the aperture memory is copied to the video memory surface representing the GDI window.
 
 ### Scalability
 
